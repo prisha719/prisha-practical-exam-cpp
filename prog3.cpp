@@ -7,14 +7,27 @@ private:
     double area;
 
 public:
-    void setColor(string c) { color = c; }
-    string getColor() { return color; }
+    void setColor(string c) 
+    { 
+        color = c; 
+    }
+    string getColor()
+     {
+         return color; 
+        }
 
-    void setArea(double a) { area = a; }
-    double getArea() { return area; }
+    void setArea(double a)
+     { 
+        area = a; 
+    }
+    double getArea() 
+    { 
+        return area; 
+    }
 };
 
-class Circle : public Shape {
+class Circle : public Shape 
+{
 private:
     double radius;
 
